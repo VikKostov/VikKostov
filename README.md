@@ -37,4 +37,6 @@ Here are some ideas to get you started:
 </td>
 </tr>
 </table>
+<p>Just pour :coffee: in</p>
+
 </div>
