@@ -1,0 +1,73 @@
+<svg fill="none" viewBox="0 0 830 100" width="830" height="100" xmlns="http://www.w3.org/2000/svg">
+        <foreignObject width="100%" height="100%">
+            <div xmlns="http://www.w3.org/1999/xhtml">
+                <style>
+                    
+    
+                    @keyframes gradientBackground {
+                        0% {
+                            background-position: 0% 50%;
+                        }
+                        50% {
+                            background-position: 100% 50%;
+                        }
+                        100% {
+                            background-position: 0% 50%;
+                        }
+                    }
+    
+                    @keyframes fadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+                        66% {
+                            opacity: 0;
+                        }
+                        100% {
+                            opacity: 1;
+                        }
+                    }
+    
+                    .container {
+                        font-family:
+                            system-ui,
+                            -apple-system,
+                            'Segoe UI',
+                            Roboto,
+                            Helvetica,
+                            Arial,
+                            sans-serif,
+                            'Apple Color Emoji',
+                            'Segoe UI Emoji';
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: top;
+                        margin: 0;
+                        width: 100%;
+                        height: 100px;
+                        background: linear-gradient(-45deg, #1f6341, #27608f, #05dfd7);
+                        background-size: 600% 400%;
+                        animation: gradientBackground 70s ease infinite;
+                        border-radius: 3px;
+                        color: white;
+                        text-align: bottom;
+                    }
+    
+                    h1 {
+                        font-size: 1.4em;
+                        line-height: 1.3;
+                        letter-spacing: .3px;
+                        
+                    }
+    
+                    p {
+                        font-size: 18px;
+                    }
+                </style>
+                <div class="container">
+                    <h1>Hello, nice to see you here &#128522;</h1>
+                </div>
+            </div>
+        </foreignObject>
+    </svg>
